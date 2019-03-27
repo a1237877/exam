@@ -1,0 +1,53 @@
+
+<!-- 4. 使用weui组件+js，将form表单数据添加至表格中(见images中  weui+js.png) -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://cdn.bootcss.com/weui/1.1.3/style/weui.css" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+        <div class="weui-cells weui-cells_form">
+                <div class="weui-cell">
+                        <div class="weui-cell__hd"><label for="" class="weui-label">名字</label></div>
+                        <div class="weui-cell__bd">
+                            <input class="weui-input" type="name" value="" placeholder="请输入姓名">
+                        </div>
+                </div>
+                <div class="weui-cell">
+                    <div class="weui-cell__hd"><label class="weui-label">qq</label></div>
+                    <div class="weui-cell__bd">
+                        <input class="weui-input" type="number" pattern="[0-9]*" placeholder="请输入qq号">
+                    </div>
+                </div>
+                <div class="weui-cell weui-cell_vcode">
+                    <div class="weui-cell__hd">
+                        <label class="weui-label">手机号</label>
+                    </div>
+                    <div class="weui-cell__bd">
+                        <input class="weui-input" type="tel" placeholder="请输入手机号">
+                    </div>
+                    <div class="weui-cell__ft">
+                        <button class="weui-vcode-btn">获取验证码</button>
+                    </div>
+                </div>
+                <div class="weui-cell">
+                    <div class="weui-cell__hd"><label for="" class="weui-label">日期</label></div>
+                    <div class="weui-cell__bd">
+                        <input class="weui-input" type="date" value="">
+                    </div>
+                </div>
+                <div class="weui-btn-area">
+                        <a class="weui-btn weui-btn_primary" href="javascript:" id="showTooltips">提交</a>
+                </div>
+                
+        </div>
+</body>
+
+
+

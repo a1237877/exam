@@ -1,0 +1,59 @@
+body{
+    color: #fff;
+}
+.container, .page{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    
+  }
+  .page__bd{
+    height: 100%;
+    background-color: #fff;
+    overflow-y: auto;
+  }
+  .tab{
+    display: none;  /*让3个div都显示不出来*/
+  }
+  .tab.show{
+    display: block;/*让它显示出来*/
+  }
+  .weui-header{
+    background-color:#46a6fd;
+    width: 100%;
+    height: 200px;
+
+  }
+  
+  .mine-title{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    color: #fff;
+
+    
+  }
+  .weui-cell_hd{
+    border-radius: 50%;  /*把这个容器变为4边圆角的图形*/
+    overflow: hidden;    /*把图片多出的部分隐藏*/
+  }
+  
+  .icon{
+      width: 50px;
+      height: 50px;
+      background: url(./images/jiantouarrowhead7.png);
+      float: left;
+      position: absolute;
+      left: 10px;
+      
+  }
+  .title{
+      text-align: center;
+  }
+  .weui-cell-last{
+      margin-right: 25px;
+  }
+  
